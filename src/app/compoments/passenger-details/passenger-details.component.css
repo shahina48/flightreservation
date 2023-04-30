@@ -1,0 +1,81 @@
+/* Bootstrap styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  /* Textures */
+  body {
+    background-color: #e5e5e5;
+    background-size: 20px 20px;
+  }
+  
+  .card {
+    background-color: rgba(105, 167, 138, 0.527);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.15) 0%,
+        rgba(0, 0, 0, 0.15) 100%
+      )
+  }
+  
+  /* CSS3 */
+  .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .form-control:required {
+    border-color: #dc3545;
+  }
+  
+  .form-control:required:focus {
+    border-color: #dc3545;
+  }
+  
+  .form-control:invalid {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+  }
+  
+  .form-control:invalid:focus {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+  }
+  
+  .form-control:valid {
+    background-color: #d4edda;
+    border-color: #28a745;
+  }
+  
+  .form-control:valid:focus {
+    background-color: #d4edda;
+    border-color: #28a745;
+  }
+  

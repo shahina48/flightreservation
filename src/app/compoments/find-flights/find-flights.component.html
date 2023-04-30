@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Flights</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.1/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="find-flights.component.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h2>Find Flights</h2>
+      </div>
+      <div class="card-body">
+        <form #findFlightsForm="ngForm" (ngSubmit)="onSubmit(findFlightsForm.value)">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="from">From:</label>
+              <input type="text" [(ngModel)]="from" name="from" class="form-control" id="from" placeholder="Enter departure city">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="to">To:</label>
+              <input type="text" [(ngModel)]="to" name="to" class="form-control" id="to" placeholder="Enter arrival city">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="departureDate">Departure Date:</label>
+            <input type="text" [(ngModel)]="departureDate" name="departureDate" class="form-control" id="departureDate" placeholder="Enter departure date">
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary mt-3">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</body>
+</html>

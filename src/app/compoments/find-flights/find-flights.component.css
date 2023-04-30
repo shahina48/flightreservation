@@ -1,0 +1,101 @@
+/* Custom styles for Find Flights form */
+
+/* Background styles */
+body {
+    background-image: url("https://images.unsplash.com/photo-1600852213226-2c6a1aa6d26c");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: rgba(105, 167, 138, 0.527);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 90%; /* adjust the width as desired */
+    margin: 0 auto; /* center the card horizontally */
+  }
+  
+  
+  .card-header {
+    background-color: #cfb629;
+    border-radius: 20px 20px 0 0;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  .form-control {
+    background-color: #f8f8f8cc;
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .form-group label {
+    font-size: 24px;
+    font-weight: bold;
+     margin-bottom: 40px;
+      
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #15a177;
+    border: none;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Flexbox styles */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  
